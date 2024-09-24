@@ -1,0 +1,135 @@
+:root {
+    --prim: #e17487;
+    --sec: #26292e;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e17487
+    );
+    --mainMid: #f4f4f6;
+    --fig1: #f4f4f6;
+    --fig2: #444444;
+    --btn: #4a4a4a;
+    --font1: "Playwrite CU", cursive;
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+header {
+    background-color: var(--sec);
+}
+
+main {
+    padding: 0 auto;
+}
+
+footer {
+    padding: 0 auto;
+}
+
+/* classes */
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.button {
+    height: 50px;
+    padding: 4px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--btn);
+}
+
+.colophon {
+    padding-left: 240px;
+}
+
+.clients-text {
+    color: #777;
+}
+
+.footer {
+    background-color: var(--sec);
+    font-family: sans-serif;
+    color: #ddd;
+}
+
+.header {
+    font-family: var(--font1);
+    color: #ddd;
+    padding: 15px;
+}
+
+.product {
+    background-color: var(--fig2);
+    border: 10px solid #999;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 180px;
+}
+
+.products-section {
+    padding-left: 80px;
+    margin-top: 40px;
+}
+
+.socials {
+    list-style-type: none;
+}
+
+/* ids */
+
+#clients {
+    margin-top: 50px;
+}
+
+#clientsHeading {
+    margin-left: 50px;
+}
+
+#clientsList {
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#headerHeading {
+    padding-left: 130px;
+}
+
+#mainImg {
+    width: 85%;
+}
+
+#mainImgDiv {
+    padding-top: 30px;
+    padding-left: 0;
+}
+
+#mainMidRow {
+    padding: 60px;
+    background-color: var(--mainMid);
+}
+
+#mainSection1 {
+    background-color: var(--prim);
+    background-image: var(--grad);
+    color: white;
+}
+
+#mainSection2 {
+    background: var(--mainMid);
+}
+#mtText1 {
+    width: 90%;
+}
+
+#mtrCol {
+    padding-left: 70px;
+}
+
